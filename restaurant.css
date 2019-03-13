@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#banner {
+    background-image: url(images/restaurant_promo.jpg);
+    background-size: cover;
+    height: 750px;
+    background-position: center;
+}
+header {
+    height: 159px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+nav {
+    margin-top: 48px;
+    float: right;
+}
+#logo {
+    float: left;
+}
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(images/nav.png) center;
+}
+#icons, #menu-list {
+    float: right;
+}
+#icons li {
+    list-style-type: none;
+    display: inline;
+}
+#icons i {
+    color: white;
+}
+#icons i:hover {
+    color: #dab33e;
+}
+#icons i.fab.fa-twitter {
+    margin-left: 3px;
+}
+#icons i.fab.fa-youtube {
+    margin-left: 18px;
+}
+#icons i.fab.fa-facebook-f {
+    margin-left: 20px;
+    padding-right: 10px;
+}
+#menu-list li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+a.navigation-menu {
+    text-decoration: none;
+    color: white;
+    font: bold 21px 'Gentium Book Basic', serif;
+    padding: 45px 13px 0px 13px;
+}
+a.navigation-menu:hover {
+    border-top: 3px solid white;
+}
+.banner-inner {
+    margin-top: 70px;
+    text-align: center;
+}
+#banner-inner-logo {
+    margin: 35px 0px 30px 0px;
+}
+h1 {
+    font: 90px 'Yeseva One', cursive;
+    text-align: center;
+    color: white;
+}
+.banner-buttons {
+    padding: 15px 0px;
+}
+.btn {
+    font: 18px 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px 15px 40px;
+    color: white;
+    margin: 0px 15px 0px 15px;
+}
+.btn-black {
+    border: 1px solid black;
+    background: rgba(0,0,0,0.5)
+}
+.btn-white {
+    border: 1px solid white;
+    background: rgba(255,255,255,0.3)
+}
+.btn-black:hover {
+    background: black;
+}
+.btn-white:hover {
+    background: rgba(255,255,255,0);
+}
+
+#about {
+    background-image: url(images/restaurant_about.jpg);
+    background-size: cover;
+    min-height: 710px;
+    background-position: center;
+    overflow: hidden;
+}
+.one-two::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+#about-block-img {
+    float: left;
+    width: 55%;
+    text-align: center;
+    margin-top: 55px;
+}
+#about-block-content {
+    float: left;
+    width: 35%;
+    text-align: center;
+    margin-top: 107px;
+    padding: 0px 50px 0 50px;
+    
+}
+h2 {
+    font: 36px 'Yeseva One', cursive;
+    color: #cc9900;
+    margin-bottom: 15px;
+}
+#img-divider {
+    margin-bottom: 30px;
+}
+.text {
+    font: 16px 'Lato', sans-serif;
+    line-height: 1.6;  
+    margin-bottom: 25px;
+}
+#img-cook {
+    margin-top: 20px;
+    margin-left: 75px;
+}
+#ingredients {
+    background-image: url(images/restaurant_ingredients.jpg);
+    background-size: cover;
+    height: 758px;
+    background-position: center;
+}
+.ingredients-block {
+    margin-top: 100px;
+    float: right;
+    background: rgba(0,0,0,0.5);
+    width: 570px;
+    height: 557px;
+    text-align: center;
+    
+}
+.ingredients-inner-block {
+    padding: 75px 75px;
+}
+h3 {
+    font: 36px 'Yeseva One', cursive;
+    color: white;
+}
+#img-divider-ingredients {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.text-1 {
+    font: 16px 'Lato', sans-serif;
+    line-height: 1.6;  
+    color: white;
+}
+.images-group {
+    margin-top: 50px;
+}
+.img-ingredient {
+    margin: 0px 5px;
+    width: 30%;
+}
+#menu {
+    background-image: url(images/restaurant_menu.jpg);
+    background-size: cover;
+    min-height: 994px;
+    background-position: center;
+    overflow: hidden;
+}
+.food-menu-content {
+    margin: 98px 72.5px 0px 72.5px;
+    float: left;
+    width: 35.5%; 
+    
+}
+.food-menu-item {
+    padding: 20px 10px 20px 10px;
+}
+.food-menu-item-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cc9900;
+}
+.food-menu-list {
+    margin-bottom: 40px;
+}
+.food-menu-name {
+    float: left;
+}
+.food-menu-price {
+    float: right;
+}
+.food-menu-summary {
+    float: left;
+    margin-top: 10px;
+}
+.heading {
+    text-align: center;
+}
+h4 {
+    font: 36px 'Yeseva One', cursive;
+    color: #cc9900;
+    margin-bottom: 15px;
+}
+h5 {
+    text-align: center;
+    font: 14px 'Lato', sans-serif;
+    color: white;
+}
+h6 {
+    font: 20px 'Yeseva One', cursive;
+    color: #cc9900;
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: left;
+}
+.food-menu-item-special-block {
+    margin-top: 10px;
+    position: relative;
+    border: 1px solid #cc9900;
+}
+.inblock {
+    padding: 10px;
+}
+.food-menu-item-special {
+    position: absolute;
+    right: -1px;
+    top: -22px;
+    width: 68px; 
+    height: 20px;
+    border: 1px solid #cc9900;
+    background-color: #c89f2d;  
+}
+#reviews {
+    background-image: url(images/restaurant_reviews.jpg);
+    background-size: cover;
+    height: 758px;
+    background-position: center;
+}
+.block-1 {
+    width: 800px;
+    margin: auto;
+}
+.reviews-block {
+    margin-top: 100px;
+    float: left;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    overflow: hidden;
+}
+.reviews-inner-block {
+    position: relative;
+    padding: 68px;
+}
+.sel {
+    display: block;
+}
+.review-text1 {
+    font: bold 26px 'Gentium Book Basic', serif;
+    line-height: 1.8;
+    color: white;
+    display: inline;
+}
+.review-text2 {
+    margin-top: 25px;
+    font: 18px 'Lato', sans-serif;
+    color: white;
+}
+.img-divider-decorations {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fas.fa-quote-left {
+    display: inline;
+    color: white;
+    font-size: 28px;
+    margin-right: 15px;
+}
+#reservations {
+    background-image: url(images/restaurant_reservations.jpg);
+    background-size: cover;
+    min-height: 710px;
+    background-position: center;
+    overflow: hidden;
+}
+.block-2 {
+    width: 75%;
+    margin: auto;
+}
+.photos-block {
+    margin-top: 100px;
+    float: left;
+    width: 60%;
+}
+.food-images {
+    padding: 0px 15px;
+}
+.reservations-content {
+    text-align: center;
+    margin-top: 100px;
+    width: 39%;
+    float: right;
+}
+.text-reservation-block {
+    margin: 30px 0px;
+    padding: 0px 10px;
+}
+.text-reservation {
+    font: 16px 'Lato', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+label {
+    font: bold 14px 'Open Sans', sans-serif;
+    color: #c9a131;
+}
+.name-date {
+    width: 45%;
+    float: left;
+    text-align: left;
+}
+.email-number {
+    width: 45%;
+    text-align:left;
+    float: right;
+}
+input[type=text], input[type=date], select {
+    font: italic 14px 'Open Sans', sans-serif;
+    padding: 5%;
+    margin-bottom: 10%;
+    width: 90%;
+}
+select {
+    width: 100%;
+}
+input[type=text]:focus, input[type=date]:focus, select:focus {
+    border: 1px solid #c89f2d;
+}
+.submit-block {
+    position: relative;
+    
+}
+.clear-both {
+    clear: both;
+}
+input[type=submit] {
+    font: 16px 'Open Sans', sans-serif;
+    color: white;
+    background-color: #c89f2d;
+    padding: 10px 50px 10px 50px;
+    margin-top: 5px;
+}
+.block-3 {
+    width: 72%;
+    margin: auto;
+}
+.h5-footer {
+    margin-bottom: 10px;
+    font: 20px 'Yeseva One', cursive;
+    color: white;
+}
+footer {
+    background-image: url(images/restaurant_footer.jpg);
+    background-size: cover;
+    min-height: 320px;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+.text-footer {
+    font: 16px 'Open Sans', sans-serif;
+}
+.footer-decorations {
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.one-three, .two-three {
+    text-align: center;
+    padding: 10px;
+    float: left;
+    width: 32%;
+    margin-top: 40px;
+}
+.two-three {
+    width: 31%;
+}
+.cards li {
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.cards i {
+    color: white;
+}
+#footer-icons {
+    margin-top: 45px;
+    float: none;
+}
+.social-footer-icons i:hover {
+    color: #c89f2d;
+}
+
+/* --Media Queries --*/
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 250%;
+    }
+    #banner-inner-logo {
+        max-width: 100%;
+    }
+    .banner-buttons {
+        width: 100%;
+    }
+    #menu-icon {
+        display: inline-block;
+        float: right;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+    nav {
+        margin: 0px;
+    }
+    nav#main-menu ul, nav#main-menu:active ul {
+        display: none;
+        width: 150px;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        border: 1px solid black;
+    }
+    nav#main-menu:hover ul {
+        display: block;
+    }
+    nav li {
+        width: 100%;
+        text-align: center;
+    }
+    a.navigation-menu {
+        padding: 0px;
+    }
+    #menu-list, #icons {
+        margin: 0px;
+    }
+    .btn {
+        display: inline-block;
+    }
+    .btn.btn-white {
+        margin-top: 20px;
+    }
+    .banner-inner {
+        width: 100%;
+    }
+    #banner  {
+        width: 100%;
+        overflow: hidden;
+    }
+    .container, #menu{
+        width: 100%;
+    }
+    /*--About--*/
+    #about-block-content, #about-block-img {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+        padding: 0px;
+    }
+    .responsive-images {
+        width: 100%;
+    }
+    #img-cook {
+        width: 50%;
+        margin: 0px;
+    }
+    /*--Ingredients--*/
+    .img-divider-decorations, .images-group  {
+        max-width: 100%;
+    }
+    .ingredients-inner-block, .reviews-inner-block {
+        padding: 20px 10px;
+        
+    }
+    .ingredients-block, .reviews-block{ 
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+        position: absolute;
+        height: auto;
+    }
+    /*--Menu--*/
+    .food-menu-list {
+        margin-top: 40px;
+    }
+    .food-menu-content {
+        margin: 0px;
+        text-align: center;
+    }
+    /*--Reviews--*/
+    .review-text1, .review-text2 {
+        font-size: 120%;
+    }
+    /*--Reservations--*/
+    .submit-block {
+        padding: 0px 10px;
+    }
+    .name-date, .email-number {
+        width: 90%;
+    }
+    .number select {
+        width: 110%;
+    }
+    input[type=text], input[type=date] {
+        width: 100%;
+    }
+    .photos-block, .reservations-content {
+        width: 100%;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .email-number {
+        float: none;
+    }
+    .food-images {
+        max-width: 100%;
+        padding: 0px;
+    }
+    /*--Footer--*/
+    .one-three, .two-three, .footer-decorations {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 0px;
+    }
+    .footer-decorations, .food-menu-divider {
+        max-width: 65%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1350px)  {
+    .food-menu-content, #menu, .container {
+        width: 100%;
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 1007px) {
+    .email-number {
+        float: none;
+    }
+    h1 {
+        font-size: 320%;
+    }
+    .submit-block {
+        padding: 0px 10px;
+    }
+    .name-date, .email-number {
+        width: 90%;
+    }
+    .number select {
+        width: 110%;
+    }
+    input[type=text], input[type=date] {
+        width: 100%;       
+    }
+}
+@media screen and (max-width: 986px) {
+    nav li {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
